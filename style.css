@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 1024px;
+    height: 768px; 
+    text-align: center;
+}
+header {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background: url('fundoheader1.jpg') no-repeat right;
+    background-color: #0D0D0D; 
+}
+.imgs-header {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    background-color: black;
+    width: 36.5%;
+    height: 96%;
+}
+#logotipo {
+    position: absolute;
+    left: 12%;
+    top: 6%;
+    width: 30%;
+    padding: 3px 0px 3px 3px;
+    
+}
+.gif {
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    position: absolute;
+    top: 8%;
+    height: 85%;
+    width: 40%;
+}
+main {
+    position: absolute;
+    top: 20%;
+    background-color: black;
+    width: 100%;
+    height: 400%;
+    border-top: solid 10px lightblue;   
+    
+}
+#icon-home{
+    position: absolute;
+    top: 32%;
+    right: 25%;
+    width: 8%;
+    
+}
+#icon-quarto{
+    position: absolute;
+    top: 37%;
+    right:18%;
+    width: 5%;
+
+}
+#icon-food{
+    position: absolute;
+    top: 36%;
+    right: 9%;
+    width: 6%;
+
+}
+#icon-contato{
+    position: absolute;
+    top: 38%;
+    right: 2%;
+    width: 5%;
+
+}
+nav{
+    position: relative;
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    height: 100%;
+
+}
+.imagem-hotel {
+    position: absolute;
+    top: 5.3%;
+    left: 4%;
+    width: 40%;
+    height: 13.4%;
+}
+.titulo {
+    position: absolute;
+    top: 5%;
+    left: 47%;
+    font-size: 250%;
+    color:aliceblue;
+}
+.paragrafo1 {
+    width: 40%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+    position: absolute;
+    top: 8%;
+    left: 47%;
+    font-size: 120%;
+    color:aliceblue;
+}
+
+.saiba-mais{
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    background-color: lightblue;
+    width: 10%;
+    height: 1%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    
+    background-color: aliceblue;
+}
+.titulo2 {
+    position: absolute;
+    color:aliceblue;
+    font-size: 250%;
+    top: 28%;
+    left: 42.5%;
+}
+.img-quarto {
+    position: absolute;
+    width: 30%;
+    top: 33%;
+    left: 3%;
+    
+}
+.img-restaurante {
+    position: absolute;
+    width: 30%;
+    top: 33%;
+    left: 35%;
+}
+.img-piscina {
+    position: absolute;
+    width: 30%;
+    top: 33%;
+    left: 67%;
+}
+.quarto {
+    position: absolute;
+    top: 41%;
+    left: 13%;
+    background-color: lightblue;
+    width: 10%;
+    height: 1%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.restaurante {
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    background-color: lightblue;
+    width: 10%;
+    height: 1%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.piscina {
+    position: absolute;
+    top: 41.4%;
+    left: 77%;
+    background-color: lightblue;
+    width: 10%;
+    height: 1%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-cinema {
+    position: absolute;
+    width: 35%;
+    top: 60%;
+    left: 12%;
+}
+.eventos {
+    font-size: 250%;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    color: aliceblue;
+}
+.paragrafo2 {
+    position: absolute;
+    top: 62.5%;
+    left: 52%;
+    font-size: 120%;
+    color: aliceblue;
+    width: 30%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+
+}
+.botao-evento {
+    position: absolute;
+    top: 69%;
+    left: 52%;
+    background-color: lightblue;
+    width: 10%;
+    height: 1%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.img-gastronomia {
+    position: absolute;
+    top: 77%;
+    width: 40%;
+}
+.gastronomia {
+    position: absolute;
+    font-size: 250%;
+    color: aliceblue;
+    top: 77%;
+    left: 12%;
+}
+.paragrafo3 {
+    position: absolute;
+    font-size: 120%;
+    color: aliceblue;
+    width: 30%;
+    top: 80%;
+    left: 12%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: justify;
+
+}
+.botao-gastronomia {
+    position: absolute;
+    top: 86%;
+    left: 12%;
+    background-color: lightblue;
+    width: 10%;
+    height: 1%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.especiarias {
+    position: absolute;
+    top: 52%;
+    left: 41%;
+    font-size: 250%;
+    color: white;
+
+}
+footer {
+    position: absolute;
+    top: 390%;
+    width: 100%;
+    height: 30%;
+    background-image: url('fundoheader1.jpg');
+    border-top: solid 10px lightblue;
+
+}
+.nomes {
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    color: aliceblue;
+    padding-top: 3%;
+    background-color: black;
+    height: 40%;
+    width: 25%;
+    border: solid 5px lightblue;
+    border-radius: 10%;  
+}
+.tia {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    color: aliceblue;
+    padding-top: 3%;
+    background-color: black;
+    height: 40%;
+    width: 12%;
+    border: solid 5px lightblue;
+    border-radius: 10%;
+}

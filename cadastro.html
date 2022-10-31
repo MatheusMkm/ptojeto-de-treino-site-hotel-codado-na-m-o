@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paradise Hotel</title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                color:lightblue;
+                font-size: large;
+            }
+            body {
+                width: 1024px;
+                height: 768px; 
+                text-align: center;
+            }
+            header {
+                position: absolute;
+                width: 100%;
+                height: 20%;
+                background: url('fundoheader1.jpg') no-repeat right;
+                background-color: #0D0D0D; 
+            }
+            .imgs-header {
+                position: absolute;
+                top: 4%;
+                left: 4%;
+                border-radius: 50px;
+                -moz-border-radius: 50px;
+                -webkit-border-radius: 50px;
+                background-color: black;
+                width: 36.5%;
+                height: 96%;
+            }
+            #logotipo {
+                position: absolute;
+                left: 12%;
+                top: 6%;
+                width: 30%;
+                padding: 3px 0px 3px 3px;
+                
+            }
+            .gif {
+                border-radius: 30px;
+                -moz-border-radius: 30px;
+                -webkit-border-radius: 30px;
+                position: absolute;
+                top: 8%;
+                height: 85%;
+                width: 40%;
+            }
+            main {
+                position: absolute;
+                top: 20%;
+                background-color: black;
+                width: 100%;
+                height: 80%;
+                border-top: solid 10px lightblue;   
+                
+            }
+            #icon-home{
+                position: absolute;
+                top: 32%;
+                right: 25%;
+                width: 8%;
+                
+            }
+            #icon-quarto{
+                position: absolute;
+                top: 37%;
+                right:18%;
+                width: 5%;
+
+            }
+            #icon-food{
+                position: absolute;
+                top: 36%;
+                right: 9%;
+                width: 6%;
+
+            }
+            #icon-contato{
+                position: absolute;
+                top: 38%;
+                right: 2%;
+                width: 5%;
+
+            }
+            nav{
+                position: relative;
+                top: 35%;
+                left: 50%;
+                width: 40%;
+                height: 100%;
+
+            }
+            #login{
+                position: absolute;
+                top: 7%;
+                left: 38%;
+                font-size: 200%;
+
+            }
+            select, option, input, textarea {
+                color:black;
+                border-radius: 5px;
+                border:3px solid lightblue;
+            }
+            select:focus, option:focus, input:focus, textarea:focus{
+                background-color:lightblue;
+            }
+            .espaco{
+                margin: 1%;
+            }
+            .text{
+                margin: 1%;
+                padding: 1%;
+                
+            }
+            .text1{
+                position: absolute;
+                top: 20%;
+                left: 10%;
+            }
+            
+            #text2{
+                position: absolute;
+                top: 68%;
+                left: 10%;
+                text-align: left;
+
+            }
+            .text3{
+                position: absolute;
+                top: 20%;
+                left: 40%;
+                
+            }
+            .botao{
+                margin: 2%;
+                padding: 1%;
+                border-radius: 10px;
+                background-color: lightblue;
+                font-weight: bold;
+
+            }
+            .botao:hover{
+                background-color:aliceblue;
+            }
+            .logo2{
+                margin: 0%;
+                padding: 0%;
+                position:absolute;
+                top: 20%;
+                left: 73%;
+                width: 25%;
+
+            }
+            footer {
+                position: absolute;
+                top: 100%;
+                width: 100%;
+                height: 30%;
+                background-image: url('fundoheader1.jpg');
+                border-top: solid 10px lightblue;
+            }
+           
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="imgs-header">
+                <img id="logotipo" src="logotipo.png" alt="Logotipo">
+                <img class="gif" src="piscina.gif">
+            </div>
+            <nav id="icons">
+                    <a href="index.html"><img src="home.png" id="icon-home" alt="ícone home"></a><br>
+                    <a href=""><img src="icone-cama.png" id="icon-quarto" alt="ícone quartos"></a><br>
+                    <a href=""><img src="icone-garfo.png" id="icon-food" alt="ícone restaurante"></a><br>
+                    <a href="cadastro.html"><img src="icone-telefone.png" id="icon-contato" alt="ícone telefone"></a><br>    
+            </nav>
+               
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <h1 id="login">Cadastro do Cliente:</h1>
+                    <div class="text1" >
+                        <input type= "text" name="nome" class="text" placeholder="Nome" required/><br>
+                        <input type= "email" name="email" class="text" placeholder="E-mail" required/><br>
+                        <input type= "password" name="senha" class="text" placeholder="Senha" required/><br>
+                        <input type= "password" name="confsenha" class="text" placeholder="Confirmar Senha" required/><br>
+                        <input type="text" name="endereco" class="text" placeholder="Endereço"/><br>
+                        <input type="number" class="text" placeholder="Idade"><br>
+                    </div>
+                    <div id="text2">
+                        <p class="espaco">Nascimento: <input type="date"></p>
+                        <p class="espaco">Sexo: <input type="radio" name="sex" value="masc"/> Masculino
+                        <input type="radio" name="sex" value="fem"/>Feminino
+                        <input type="radio" name="sex" value="out"/>Outros</p>
+                        
+                        <input type="checkbox" name="diaria" class="espaco" value="diaria"/> Diária
+                        <input type="checkbox" name="ferias" class="espaco" value="ferias"/> Plano de Férias
+                        <input type="checkbox" name="airbnb" class="espaco" value="airbnb"/> Airbnb
+                        
+                        <p class="espaco">Agendamento: 
+                        <select name="plano">
+                            <option value="diaria">Diária</option>
+                            <option value="semanal">Semanal</option>
+                            <option value="mensal">Mensal</option>
+                            <option value="anual">Anual</option>
+                        </select>
+                        </p>
+                    </div>
+                    <div class="text3">
+                        <textarea rows="10" cols="30" placeholder="Sugestão de Plano"></textarea><br>
+                        <input class="botao" type="submit" value="Enviar"/>
+                        <input class="botao" type="reset" value="Cancelar"/>
+                    </div> 
+                </fieldset>           
+            </form>
+            <img src="logotipo.png" class="logo2">
+
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
